@@ -3,13 +3,9 @@
 #include <vector>
 #include <stdint.h>
 #include <fstream>
-#include "newclass.cpp"
 
 
-int main (){
+void ausgabe(){
 
-ausgabe();
-
-
-    return 0;
+    std::cout<<"my first change"<<std::endl;
 }
