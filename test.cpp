@@ -3,13 +3,12 @@
 #include <vector>
 #include <stdint.h>
 #include <fstream>
-#include "newclass.cpp"
+#include "newclass.h"
 
 
 int main (){
 
 ausgabe();
 
-std::uint16_t counter = 0;
     return 0;
 }

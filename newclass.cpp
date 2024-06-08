@@ -4,6 +4,7 @@
 #include <stdint.h>
 #include <fstream>
 
+#include "newclass.h"
 
 void ausgabe(){
 
