@@ -8,7 +8,9 @@
 
 int main (){
 
-Haus a = Haus("Holz", 2);
-a.ausgabe();
-    return 0;
+Auto myO("Cadet", 178);
+
+myO.ausgabe();
+
+return 0;
 }

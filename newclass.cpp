@@ -7,12 +7,13 @@
 #include "newclass.h"
 
 
-Haus::Haus(std::string door, uint8_t amountDoor){
-    this->door = door;
-    this->amountDoor  = amountDoor;
+Auto::Auto(std::string bd1, uint16_t pq1){
+    this->brand=bd1;
+    this->ps=pq1;
+    std::cout<<"bin hier angelangt"<<std::endl;
 }
 
-void Haus::ausgabe(){
-    std::cout<<door<<amountDoor<<std::endl;
+void Auto::ausgabe(){
+    std::cout<<brand<<std::endl<<ps<<std::endl;
 }
-  
+

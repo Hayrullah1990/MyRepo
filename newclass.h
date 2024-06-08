@@ -6,12 +6,15 @@
 #pragma once
 
 
-class Haus{
-public:
-std::string door;
-uint8_t amountDoor;
-Haus(std::string door, uint8_t amountDoor);
+class Auto{
 
+private:
+std::string brand;
+uint16_t ps;
+
+public:
+Auto(std::string bd1, uint16_t pq1);
 void ausgabe();
 
 };
+
