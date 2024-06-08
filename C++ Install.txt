@@ -1,0 +1,32 @@
+1.Schritt:
+
+Visual Code install
+
+
+2.Schritt:
+
+Cygwin install
+
+(Dabei gcc version 11.3.0-1, gdb Version 9.2, make Version aktuellste Version wählen, dann next)
+
+3.Schritt:
+
+Den Pfad C von gygwin bin kopieren
+
+4.Schritt:
+
+Windows taste drücken und auf suche "Umgebungsvariable bearbeiten" tippen
+
+5.Schritt:
+
+Oben steht irgendwo "Path", den Doppelklicken und in einer leeren Zeile den Pfad aus Schritt 3 reinkorpieren
+
+6.Schritt:
+
+PC neu starten
+
+7.Schritt:
+
+Im CMD dann durch befehle wie gcc --version, g++ --version, gdb --version eintippen, wenn keine Fehlermeldung auftaucht, sollte die Installation geglückt haben
+
+
