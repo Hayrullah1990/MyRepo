@@ -8,7 +8,7 @@
 
 int main (){
 
-ausgabe();
-
+Haus a = Haus("Holz", 2);
+a.ausgabe();
     return 0;
 }

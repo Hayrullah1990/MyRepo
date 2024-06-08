@@ -6,7 +6,13 @@
 
 #include "newclass.h"
 
-void ausgabe(){
 
-    std::cout<<"my first change"<<std::endl;
+Haus::Haus(std::string door, uint8_t amountDoor){
+    this->door = door;
+    this->amountDoor  = amountDoor;
 }
+
+void Haus::ausgabe(){
+    std::cout<<door<<amountDoor<<std::endl;
+}
+  
